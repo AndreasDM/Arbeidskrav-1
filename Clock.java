@@ -18,10 +18,9 @@ public class Clock extends Meter {
     @Override
     public String toString()
     {
-        String str = String.format("%s\n%-23s %s\n%s", "Clock:", "Lowest time-interval:",
+        String str = String.format("%s\n%-23s %s s\n%s", "Clock:", "Lowest time-interval:",
                                    lowestInterval, super.toString());
         return str;
-        //return "Clock:\n(Lowest time-interval: " + lowestInterval + "\n" + super.toString();
     }
 
     @Override

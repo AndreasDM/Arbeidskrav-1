@@ -19,13 +19,11 @@ public abstract class Meter {
     @Override
     public String toString()
     {
-        String str = String.format("%-23s %s\n%-23s %s\n%-23s %s\n\n", "Registration Number: ", 
+        String str = String.format("%-23s %s\n%-23s %s\n%-23s %s\n", "Registration Number: ", 
             registrationNumber, "Storage Place: ", storagePlace, "Status: ", 
             getworkingStatusToText());
 
         return str;
-        //return "Registration Number: " + registrationNumber + "\nStorage Place: " +
-        //       storagePlace + "\nStatus: " + getworkingStatusToText() + "\n\n";
     }
 
     public String getRegistrationNumber() { return registrationNumber; }

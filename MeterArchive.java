@@ -24,8 +24,6 @@ public class MeterArchive {
             print("Successfully removed item with registration number: " + regNr);
             return true;
         }
-
-        print("No item found with registration number: " + regNr);
         return false;
     }
 
@@ -54,6 +52,11 @@ public class MeterArchive {
     public List<Meter> getMeters()
     {
         return meters;
+    }
+
+    public void printNotFound(String reg)
+    {
+        System.out.printf("Item with reg number: '%s' not found\n", reg);
     }
 
     private Meter isMatch(String regNr)

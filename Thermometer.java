@@ -20,12 +20,9 @@ public class Thermometer extends Meter {
     @Override
     public String toString()
     {
-        String str = String.format("%s\n%-23s %s | %s\n%s", "Thermometer:", "Min-Max Temperature:",
+        String str = String.format("%s\n%-23s %s °C | %s °C\n%s", "Thermometer:", "Min-Max Temperature:",
                                    lowestTemp, highestTemp, super.toString());
         return str;
-
-        //return "Thermometer:\nMin-Max Temperature: " + lowestTemp + " - " + highestTemp + "\n" + 
-        //       super.toString();
     }
 
     @Override

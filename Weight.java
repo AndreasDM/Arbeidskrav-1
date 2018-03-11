@@ -24,8 +24,6 @@ public class Weight extends Meter {
                                    lowestWeight, highestWeight, super.toString());
         
         return str;
-        //return "Weight:\n(Interval: " + lowestWeight + " - " + highestWeight + ")\n" + 
-        //       super.toString();
     }
 
     @Override
