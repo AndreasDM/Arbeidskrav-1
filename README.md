@@ -4,5 +4,5 @@ This is my solution to a java homework at university
 ***
 
 # How to run
-Compile with `javac Client.java && java Client`
+Compile with `javac Client.java && java Client` <br>
 If on Windows, `javac Client.java`, then `java Client`
